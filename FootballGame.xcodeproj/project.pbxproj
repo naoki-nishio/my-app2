@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		838831CD295945F700499EC1 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 838831CC295945F700499EC1 /* GoogleMobileAds */; };
 		83AC13522953FEF7000880A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AC13512953FEF7000880A5 /* AppDelegate.swift */; };
 		83AC13542953FEF7000880A5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83AC13532953FEF7000880A5 /* GameScene.sks */; };
 		83AC13562953FEF7000880A5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83AC13552953FEF7000880A5 /* Actions.sks */; };
@@ -15,9 +16,14 @@
 		83AC135D2953FEF7000880A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AC135B2953FEF7000880A5 /* Main.storyboard */; };
 		83AC135F2953FEFB000880A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AC135E2953FEFB000880A5 /* Assets.xcassets */; };
 		83AC13622953FEFB000880A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AC13602953FEFB000880A5 /* LaunchScreen.storyboard */; };
+		83D6B6EE2954198A00230EB6 /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6B6ED2954198A00230EB6 /* TitleScene.swift */; };
+		83D6B6F02954369200230EB6 /* ResultScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6B6EF2954369200230EB6 /* ResultScene.swift */; };
+		DCE01EAEFA9F3C92A22356A8 /* Pods_FootballGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A5461BFD7670ED29109534 /* Pods_FootballGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0080B51E59298F0A0192FAC9 /* Pods-FootballGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballGame.debug.xcconfig"; path = "Target Support Files/Pods-FootballGame/Pods-FootballGame.debug.xcconfig"; sourceTree = "<group>"; };
+		7D78C1260A902E98E04BC3D8 /* Pods-FootballGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballGame.release.xcconfig"; path = "Target Support Files/Pods-FootballGame/Pods-FootballGame.release.xcconfig"; sourceTree = "<group>"; };
 		83AC134E2953FEF7000880A5 /* FootballGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AC13512953FEF7000880A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83AC13532953FEF7000880A5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -27,6 +33,11 @@
 		83AC135C2953FEF7000880A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83AC135E2953FEFB000880A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83AC13612953FEFB000880A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83BE08042955772E00E67A1F /* FootballGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FootballGame.entitlements; sourceTree = "<group>"; };
+		83BE08052955785500E67A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		83D6B6ED2954198A00230EB6 /* TitleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
+		83D6B6EF2954369200230EB6 /* ResultScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScene.swift; sourceTree = "<group>"; };
+		93A5461BFD7670ED29109534 /* Pods_FootballGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FootballGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838831CD295945F700499EC1 /* GoogleMobileAds in Frameworks */,
+				DCE01EAEFA9F3C92A22356A8 /* Pods_FootballGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +58,8 @@
 			children = (
 				83AC13502953FEF7000880A5 /* FootballGame */,
 				83AC134F2953FEF7000880A5 /* Products */,
+				8AE90EE1C77A42DDE5F11D8E /* Pods */,
+				9EFDA892AE6EC4CA7F4D237C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,16 +74,37 @@
 		83AC13502953FEF7000880A5 /* FootballGame */ = {
 			isa = PBXGroup;
 			children = (
+				83BE08052955785500E67A1F /* Info.plist */,
+				83BE08042955772E00E67A1F /* FootballGame.entitlements */,
 				83AC13512953FEF7000880A5 /* AppDelegate.swift */,
 				83AC13532953FEF7000880A5 /* GameScene.sks */,
 				83AC13552953FEF7000880A5 /* Actions.sks */,
 				83AC13572953FEF7000880A5 /* GameScene.swift */,
+				83D6B6ED2954198A00230EB6 /* TitleScene.swift */,
+				83D6B6EF2954369200230EB6 /* ResultScene.swift */,
 				83AC13592953FEF7000880A5 /* GameViewController.swift */,
 				83AC135B2953FEF7000880A5 /* Main.storyboard */,
 				83AC135E2953FEFB000880A5 /* Assets.xcassets */,
 				83AC13602953FEFB000880A5 /* LaunchScreen.storyboard */,
 			);
 			path = FootballGame;
+			sourceTree = "<group>";
+		};
+		8AE90EE1C77A42DDE5F11D8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0080B51E59298F0A0192FAC9 /* Pods-FootballGame.debug.xcconfig */,
+				7D78C1260A902E98E04BC3D8 /* Pods-FootballGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9EFDA892AE6EC4CA7F4D237C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A5461BFD7670ED29109534 /* Pods_FootballGame.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,15 +114,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83AC13652953FEFB000880A5 /* Build configuration list for PBXNativeTarget "FootballGame" */;
 			buildPhases = (
+				D6C3120776BF1964E81A7E6E /* [CP] Check Pods Manifest.lock */,
 				83AC134A2953FEF7000880A5 /* Sources */,
 				83AC134B2953FEF7000880A5 /* Frameworks */,
 				83AC134C2953FEF7000880A5 /* Resources */,
+				E0DCF6E7CA76A67518776424 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FootballGame;
+			packageProductDependencies = (
+				838831CC295945F700499EC1 /* GoogleMobileAds */,
+			);
 			productName = FootballGame;
 			productReference = 83AC134E2953FEF7000880A5 /* FootballGame.app */;
 			productType = "com.apple.product-type.application";
@@ -115,6 +156,9 @@
 				Base,
 			);
 			mainGroup = 83AC13452953FEF7000880A5;
+			packageReferences = (
+				838831CB295945F700499EC1 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			productRefGroup = 83AC134F2953FEF7000880A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +183,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D6C3120776BF1964E81A7E6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FootballGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0DCF6E7CA76A67518776424 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FootballGame/Pods-FootballGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FootballGame/Pods-FootballGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FootballGame/Pods-FootballGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83AC134A2953FEF7000880A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -147,6 +233,8 @@
 				83AC13582953FEF7000880A5 /* GameScene.swift in Sources */,
 				83AC135A2953FEF7000880A5 /* GameViewController.swift in Sources */,
 				83AC13522953FEF7000880A5 /* AppDelegate.swift in Sources */,
+				83D6B6F02954369200230EB6 /* ResultScene.swift in Sources */,
+				83D6B6EE2954198A00230EB6 /* TitleScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,57 +376,69 @@
 		};
 		83AC13662953FEFB000880A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0080B51E59298F0A0192FAC9 /* Pods-FootballGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FootballGame/FootballGame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LWJD5CUZT3;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FootballGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Football Referee";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = gamekit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.naoki.nishio.FootballGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		83AC13672953FEFB000880A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D78C1260A902E98E04BC3D8 /* Pods-FootballGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FootballGame/FootballGame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LWJD5CUZT3;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FootballGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Football Referee";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = gamekit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.naoki.nishio.FootballGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -364,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		838831CB295945F700499EC1 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		838831CC295945F700499EC1 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 838831CB295945F700499EC1 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83AC13462953FEF7000880A5 /* Project object */;
 }
